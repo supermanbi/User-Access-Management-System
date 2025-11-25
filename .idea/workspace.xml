@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="931a4711-dd02-42b5-8af1-035c5a760918" name="Changes" comment="" />
+    <list default="true" id="931a4711-dd02-42b5-8af1-035c5a760918" name="Changes" comment="Initial multi-module structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +97,19 @@
       <option name="presentableId" value="Default" />
       <updated>1763544613031</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial multi-module structure">
+      <option name="closed" value="true" />
+      <created>1764088507645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764088507645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial multi-module structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial multi-module structure" />
   </component>
 </project>
