@@ -3,10 +3,10 @@ package com.r2s.auth.dto;
 import lombok.Data;
 
 @Data
-public class AuthReponse {
+public class AuthResponse {
     private String token;
 
-    public AuthReponse(String token) {
+    public AuthResponse(String token) {
         this.token = token;
     }
 }
