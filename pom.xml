@@ -19,8 +19,9 @@
 
     <modules>
         <module>core</module>
-        <module>user-service</module>
+        <module>users-service</module>
         <module>auth-service</module>
+        <module>users-service</module>
     </modules>
 
     <properties>

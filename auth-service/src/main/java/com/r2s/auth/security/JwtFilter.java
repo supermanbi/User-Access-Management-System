@@ -24,7 +24,7 @@ public class JwtFilter extends OncePerRequestFilter {
         this.userDetailsService = userDetailsService;
     }
 
-    // 🚀 Bypass filter cho /auth/**
+    // ⭐ Bỏ qua filter cho /auth/**
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request) {
         String path = request.getServletPath();
@@ -41,11 +41,13 @@ public class JwtFilter extends OncePerRequestFilter {
         String token = null;
         String username = null;
 
+        // ⭐ Lấy token và trích username
         if (authHeader != null && authHeader.startsWith("Bearer ")) {
             token = authHeader.substring(7);
-            username = jwtUtil.extracUsername(token);
+            username = jwtUtil.extractUsername(token); //
         }
 
+        // ⭐ Xác thực lại thông tin người dùng
         if (username != null &&
                 SecurityContextHolder.getContext().getAuthentication() == null) {
 
