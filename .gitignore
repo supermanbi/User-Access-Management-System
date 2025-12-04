@@ -1,0 +1,26 @@
+# Ignore IntelliJ project files
+*.iml
+.idea/
+mvnw.cmd
+mvnw
+
+# Common build folders
+target/
+build/
+bin/
+out/
+
+# Ignore Maven build files
+maven/
+maven-wrapper.jar
+maven-wrapper.properties
+
+# Ignore uploads folder
+uploads
+
+# Ignore all .log files
+*.log
+*.properties
+*.jar
+*.tmp
+*.class
